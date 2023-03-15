@@ -17,17 +17,16 @@ sphinx_extensions:
   - sphinxcontrib.excel
   - sphinx_copybutton
 dependencies:
-  - chardet
   - lml>=0.0.4
   - pyexcel-io>=0.6.2
   - texttable>=0.8.2
 extra_dependencies:
   - xls:
-    - pyexcel-xls>=0.6.0
+      - pyexcel-xls>=0.6.0
   - xlsx:
-    - pyexcel-xlsx>=0.6.0
+      - pyexcel-xlsx>=0.6.0
   - ods:
-    - pyexcel-ods3>=0.6.0
+      - pyexcel-ods3>=0.6.0
 test_dependencies:
   - flask
   - SQLAlchemy
